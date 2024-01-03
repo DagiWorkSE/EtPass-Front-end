@@ -4,7 +4,7 @@ import Cards from "./Cards";
 import visa from "../assets/visa.png";
 import approved from "../assets/approved.png";
 import passport from "../assets/passport.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo.png";
 import ethiopia from "../assets/ethiopia.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
