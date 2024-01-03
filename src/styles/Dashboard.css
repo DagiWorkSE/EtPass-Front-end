@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar {
+  background: #0D619E;
+  color: #fff;
+    min-height: 300vh !important; 
+  width: 300px;
+  transition: all 0.3s;
+  display: block; 
+  margin-top: -5.2rem;
+  z-index: 1 !important;
+  position: fixed;
+}
+
+.container {
+  /* display: flex; */
+}
+
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+    align-items: right;
+    padding-left: 0%;
+}
+.bars{
+    display: block;
+    font-size: 25px;
+    margin-left: auto !important;
+
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 20px 15px !important;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: white;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .link{
+    padding: 20px 35px;
+  }
+  .sidebar {
+    width: 0;
+    display: block; 
+  }
+  .bars{
+    display: none;
+  }
+}
+
+
+
+
+
+/*    ////////////////////////// ////////////////////////////////Css of the TOP BAR /////////////////////////////////////////////////*/
+
+
+#top-bars {
+  height: 80px;
+  background-color: #000;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.admin-name {
+  margin-right: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.admin-role {
+  color: black;
+  font-size: 12px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.nav-link .dropdown-menu {
+  min-width: 100px;
+}
+
+.nav-link .dropdown-menu .dropdown-item {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.bell {
+  font-size: 28px; 
+  color: #0D619E;
+}
+
+
+@media (max-width: 596px) {
+  .top {
+    margin-left: -50%;
+  }
+  .dropdown-menu.show {
+    padding-left: 68px;
+}
+  
+  .logotop{
+    margin-left: 50%;
+    max-height: 50px;
+  }
+}
+
+/*/////////////////////////////////////////////////////////ProfileCard///////////////////////////////////////// */
+
+.profile-card.card {
+  margin-top: 3rem;
+  width: 700px !important;
+  height: 590px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 18.75rem;
+  left: 0rem
+}
+
+
+.text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* .profile-pictures {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+} */
+
+*{
+  margin: 0;
+padding: 0;
+
+--blue: #0D619E;
+--white: #ffffff;
+--broken:#ffffff6b;
+--hero_blue: linear-gradient(278deg, #0094FF 35.34%, #0D619E 72.13%);
+
+}
+.card-view{
+  width: 1238px;
+height: 445px;
+flex-shrink: 0;
+margin-top: 100px;
+}
+.profile-header{
+  background-color: white;
+  width: 100%;
+  height: 160px !important;
+  align-items: center;
+  text-align: center;
+  border-color: grey !important;
+  font-weight: bolder;
+}
+
+
+.content-2{
+height: 550px;
+border-right: 1px solid grey;
+}
+
+.button{
+  display: flex;
+  background-color: white;
+  color: var(--blue) !important;
+  width: 250px;
+  height: 45px;
+padding: 14px 65px 14px 64px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin: 10px;
+}
+
+.button:hover{
+  background-color: var(--blue);
+  color: white !important;
+}
+.button-1{
+  display: flex;
+  color: white !important;
+  background-color: var(--blue) !important;
+width: 250px;
+height: 45px;
+padding: 14px 65px 14px 64px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin: 10px;
+
+}
+
+.button-1:hover{
+  color: var(--blue) !important;
+  background-color: white !important;
+}
+.body-1{
+  margin-top: 40px;
+  margin-bottom: 160px;
+}
+
+.avatar-button{
+  margin-top: 200px !important;
+}
+
+.profile-pictures-profile{
+  height: 200px !important;
+  width: 200px !important;
+  margin: 90px 30px -100px 30px;
+}
+
+
+/* ///////////////////////////////////////Notificaiton Page .jsx /////// */
+
+.notification-cards{
+  flex: 1;
+margin-left: 16rem;
+}
+
+
+@media (max-width: 596px) {
+  .notification-cards {
+    margin-left: 3rem;
+  }
+ 
+}

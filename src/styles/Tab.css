@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+  padding: 0;
+  
+  --blue: #0D619E;
+  --white: #ffffff;
+  --broken:#ffffff6b;
+  --hero_blue: linear-gradient(278deg, #0094FF 35.34%, #0D619E 72.13%);
+  --grey: #ECECEC;
+  
+  }
+.tab-content>.active{
+        background: none !important;
+        border-top: none !important;
+        
+}
+
+.nav-tabs .active{
+    background: var(--blue) !important;
+    color: white !important;
+}
+.nav-tabs{
+    margin-top: 2rem !important;
+    color: var(--blue) !important;
+}
